@@ -1,6 +1,6 @@
 ```mermaid
 sequenceDiagram
-    Browser->>Server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
+    Browser->>Server: POST https://studies.cs.helsinki.fi/exampleapp/new_note [note: "this is my note"]
     Server-->>Browser: redirect to /exampleapp/notes
     note right of Browser: pretty much a refresh
     Browser->>Server: GET https://studies.cs.helsinki.fi/exampleapp/notes
