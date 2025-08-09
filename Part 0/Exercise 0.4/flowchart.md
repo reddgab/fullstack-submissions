@@ -8,7 +8,7 @@ sequenceDiagram
     Browser->Server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
     Server-->>Browser: no changes, just use cache :3
     note left of Server: (304 Not Modified)
-    Browser->Server: GET https://studies.cs.helsinki.fi/exampleapp/main.js
+    Browser->>Server: GET https://studies.cs.helsinki.fi/exampleapp/main.js
     Server-->>Browser: no changes, just use cache :3
     note left of Server: (304 Not Modified)
     Browser->>Server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
