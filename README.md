@@ -1,1 +1,1 @@
-Exercises are categorized into which part number they reside in.
+Exercises are organized based on the example in 0.1 :3c
