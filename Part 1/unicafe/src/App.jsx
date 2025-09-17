@@ -63,7 +63,7 @@ const App = () => {
       <h1>stats</h1>
       <Stats good={good} neutral={neutral} bad={bad} allFeedback={allFeedback} />
     </div>
-
+    
   )
 }
 
